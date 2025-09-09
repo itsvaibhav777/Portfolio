@@ -2,6 +2,11 @@
 
 A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained – loved by developers and students for its modern design and clean code.
 
+## 🚀 Live Demo
+
+🔗 [View Portfolio Live](https://portfolio-eight-gold-59.vercel.app/)
+
+
 ## 🛠️ Tech Stack
 
 - ⚛️ React.js
