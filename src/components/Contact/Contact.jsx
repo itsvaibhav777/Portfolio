@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_bxlv3zl",  // Replace with your EmailJS Service ID
-        "template_i87cn8m",  // Replace with your EmailJS Template ID
+        "service_h5npzgp",    // ✅ Your EmailJS Service ID
+        "template_i87cn8m",   // ✅ Your EmailJS Template ID
         form.current,
-        "BE1sDMCEiuY2TUWN7"  // Replace with your EmailJS Public Key
+        "BE1sDMCEiuY2TUWN7"   // ✅ Your EmailJS Public Key
       )
       .then(
         () => {
@@ -69,36 +69,44 @@ const Contact = () => {
           Connect With Me <span className="ml-1">🚀</span>
         </h3>
 
-        <form ref={form} onSubmit={sendEmail} className="mt-4 flex flex-col space-y-4">
-          <input
-            type="email"
-            name="user_email"
-            placeholder="Your Email"
-            required
-            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
-          />
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="mt-4 flex flex-col space-y-4"
+        >
+          {/* Name */}
           <input
             type="text"
-            name="user_name"
+            name="from_name" // ✅ Matches EmailJS variable
             placeholder="Your Name"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
+          {/* Email */}
+          <input
+            type="email"
+            name="reply_to" // ✅ Matches EmailJS variable
+            placeholder="Your Email"
+            required
+            className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+          />
+          {/* Subject */}
           <input
             type="text"
-            name="subject"
+            name="subject" // ✅ Matches EmailJS variable
             placeholder="Subject"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
+          {/* Message */}
           <textarea
-            name="message"
+            name="message" // ✅ Matches EmailJS variable
             placeholder="Message"
             rows="4"
             required
             className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
           />
-          
+
           {/* Send Button */}
           <button
             type="submit"

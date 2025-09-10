@@ -164,6 +164,7 @@ export const SkillsInfo = [
         "Built a machine learning-based disease prediction system that predicts illnesses with good accuracy. The system helps reduce the time needed for diagnosis and works reliably with patient records.",
       image: disease,
       tags: ["HTML", "CSS", "Python", "Scikit Learn", "Flask"],
+      github: "https://github.com/itsvaibhav777/Healthcare-and-disease-Prediction",
       
     },
     {
@@ -173,6 +174,7 @@ export const SkillsInfo = [
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
       image: email,
       tags: ["Prisma", "Node.js", "Next.js", "PostgreSQL", "HTML", "CSS", "API"],
+      github: "https://github.com/itsvaibhav777/Email-PDF-Ingestion",
     },
     {
       id: 2,

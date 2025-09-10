@@ -20,4 +20,3 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 - Clean and modular React components 🧩
 - Easy to customize with Tailwind utility classes 🎯
 - Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
-
