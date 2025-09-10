@@ -4,7 +4,7 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https://portfolio-eight-gold-59.vercel.app/)
+🔗 [View Portfolio Live](https://portfolio-vaibhav-patel.vercel.app/)
 
 
 ## 🛠️ Tech Stack
