@@ -38,7 +38,7 @@ import jps10 from './assets/education_logo/jps10.png';
 import disease from './assets/work_logo/disease.png';
 import email from './assets/work_logo/email.png';
 import stock from './assets/work_logo/stock.png';
-import npmLogo from './assets/work_logo/npm.png';
+import wether from './assets/work_logo/wether.png';
 
 
 export const SkillsInfo = [
@@ -191,7 +191,7 @@ export const SkillsInfo = [
       title: "Weather Forecasting Application",
       description:
         "Weathercast Using Python and Django Weather Bug is the application of science and technology to predict the conditions of the atmosphere for a given location and time. You can get the realtime Weather forecasting by using this web application",
-      image: npmLogo,
+      image: wether,
       tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "Django", "SQLite 3"],
       github: "https://github.com/itsvaibhav777/Weather-Forecasting-Application",
       
